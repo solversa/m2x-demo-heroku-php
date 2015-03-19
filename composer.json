@@ -1,4 +1,7 @@
 {
+  "require": {
+    "attm2x/m2x-php": "~2.0"
+  },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   }
