@@ -34,5 +34,5 @@ def execute(command):
             sys.stdout.flush()
 
 while True:
-    execute(os.path.join(WORKING_DIR, "php loadreport.php"))
+    execute(os.path.join(WORKING_DIR, "loadreport.php"))
     time.sleep(60)
