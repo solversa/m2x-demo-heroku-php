@@ -1,0 +1,24 @@
+{
+  "name": "M2X PHP Demo App",
+  "description": "A demo App for AT&T M2X",
+  "repository": "https://github.com/attm2x/m2x-demo-heroku-php",
+  "keywords": ["php", "m2x"],
+  "env": {
+    "M2X_API_KEY": {
+      "description": "M2X API Key",
+      "required": true
+    },
+    "THRIFTY": {
+      "description": "run on a single (free) dyno",
+      "value": "true"
+    },
+    "CONCURRENCY": {
+      "description": "level of total concurrency",
+      "value": "1"
+    },
+    "CLOCK_CONCURRENCY": {
+      "description": "level of concurrency for clock processes",
+      "value": "1"
+    }
+  }
+}
