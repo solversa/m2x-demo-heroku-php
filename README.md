@@ -5,7 +5,8 @@
 
 This repo provides a framework for a Heroku application with PHP code that reports data to AT&T M2X. The application reports the current system load every minute.
 
-Please note that the Heroku machine and M2X are using times in UTC, not in your local time zone.
+Please note that the Heroku machine and M2X are using times in UTC, not in your local time zone. M2X will, however, accept data in any time zone as long as the timestamp is formatted using ISO8601 (e.g. "2015-02-27T18:14:00.000-03:00").
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
