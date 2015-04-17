@@ -14,7 +14,7 @@ Please note that the Heroku machine and M2X are using times in UTC, not in your 
 
 You will need to have an account on [Heroku](https://www.heroku.com/). Because this example application uses only one Heroku dyno, it should be free for you to use, no matter how many other applications you have.
 
-You will also need an account on AT&amp;T's M2X service ([m2x.att.com](https://m2x.att.com)), which is currently free to everyone. (Future plans call for M2X to keep a free "Developer" plan, but to charge for very large volumes of data.)
+You will also need an [account on AT&T's M2X service](https://m2x.att.com/signup), which has a free Developer plan and usage based paid plans for higher volumes of data. Check out the [M2X Pricing](https://m2x.att.com/pricing) page for more details.
 
 You will need the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed and configured with your Heroku login credentials.
 
