@@ -23,14 +23,14 @@ Click the Heroku button to deploy your application to Heroku:
 
 ### Scaling Your Application
 
-Because the application uses the "Clock" process type, your code isn't running yet. You need to scale the number of clock workers to 1.
+Because the application uses the "Clock" process type, your code isn't running yet. You need to scale the number of clock workers to 1. You also need to scale the web worker to 0 to prevent charges on your account.
 
-Go to the Resources tab on your application's dashboard on Heroku and scale the `clock python master.py` process so that it uses one dyno.
+Go to the Resources tab on your application's dashboard on Heroku and scale the `php -S 0.0.0.0:$PORT` process to 0 and the `clock python master.py` process so that it uses one dyno.
 
 Optionally, you can do this using the CLI:
 
 ```
-heroku ps:scale clock=1
+heroku ps:scale web=0 clock=1
 ```
 
 Notice that the [Heroku Toolbelt](https://toolbelt.heroku.com/) must be installed and configured with your Heroku login credentials for this to work.
