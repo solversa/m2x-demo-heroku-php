@@ -1,6 +1,6 @@
 {
   "name": "M2X PHP Demo App",
-  "description": "AT&T M2X Heroku Demo Application",
+  "description": "AT&amp;T M2X Heroku Demo Application",
   "repository": "https://github.com/attm2x/m2x-demo-heroku-php",
   "keywords": ["php", "m2x"],
   "addons": ["m2x"],
